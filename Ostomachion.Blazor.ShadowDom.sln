@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ostomachion.Blazor.V7_0_3.ShadowDom", "src\Ostomachion.Blazor.ShadowDom\Ostomachion.Blazor.V7_0_3.ShadowDom.csproj", "{F88E76FB-E400-4B20-8ED4-1A5A1E722E16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ostomachion.Blazor.V7_0_3.ShadowDom", "src\Ostomachion.Blazor.V7_0_3.ShadowDom\Ostomachion.Blazor.V7_0_3.ShadowDom.csproj", "{F88E76FB-E400-4B20-8ED4-1A5A1E722E16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
