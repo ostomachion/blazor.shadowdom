@@ -1,18 +1,33 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Title>Blazor Shadow DOM</Title>
+    <Version>1.0.0-preview</Version>
+    <Authors>ostomachion</Authors>
+    <Company />
+    <Copyright>Copyright © Josh Hufford 2023</Copyright>
+    <Description>A modified version of Microsoft's Blazor JavaScript files to add support for shadow DOMs.</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ostomachion/blazor.shadowdom</RepositoryUrl>
+    <PackageTags>Blazor; ShadowDOM; ShadowRoot; WebComponents</PackageTags>
+    <PackageReleaseNotes>Initial pre-release of Ostomachion.Blazor.ShadowDom scripts. Only blazor.webassembly.js has been tested.</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <SupportedPlatform Include="browser" />
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.3" />
-  </ItemGroup>
-
+	
 </Project>
