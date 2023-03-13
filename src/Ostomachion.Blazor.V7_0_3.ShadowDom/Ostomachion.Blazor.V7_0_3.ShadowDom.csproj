@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageId>$(AssemblyName)</PackageId>
     <Title>Blazor Shadow DOM</Title>
-    <Version>1.0.0-preview</Version>
+    <Version>1.0.0-preview2</Version>
     <Authors>ostomachion</Authors>
     <Company />
     <Copyright>Copyright © Josh Hufford 2023</Copyright>
@@ -17,7 +17,6 @@
     <PackageReleaseNotes>Initial pre-release of Ostomachion.Blazor.ShadowDom scripts. Only blazor.webassembly.js has been tested.</PackageReleaseNotes>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <ApplicationIcon>icon.png</ApplicationIcon>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
