@@ -9,7 +9,7 @@ Also see [Blazor Web Components](https://github.com/ostomachion/blazor.webcompon
 
 ## Installation
 
-`dotnet add package Ostomachion.Blazor.V7_0_3.ShadowDom --version 1.0.0-preview`
+`dotnet add package Ostomachion.Blazor.V7_0_3.ShadowDom --version 1.0.0-preview2`
 
 **Important:** Make sure that the package you download matches the version of ASP.NET Core that you are using. Currently only 7.0.3 is supported. **Other versions are coming soon!**
 

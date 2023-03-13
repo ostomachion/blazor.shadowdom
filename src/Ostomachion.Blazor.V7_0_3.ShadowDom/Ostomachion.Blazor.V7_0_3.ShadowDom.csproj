@@ -11,16 +11,31 @@
     <Company />
     <Copyright>Copyright © Josh Hufford 2023</Copyright>
     <Description>A modified version of Microsoft's Blazor JavaScript files to add support for shadow DOMs.</Description>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ostomachion/blazor.shadowdom</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ostomachion/blazor.shadowdom</RepositoryUrl>
     <PackageTags>Blazor; ShadowDOM; ShadowRoot; WebComponents</PackageTags>
     <PackageReleaseNotes>Initial pre-release of Ostomachion.Blazor.ShadowDom scripts. Only blazor.webassembly.js has been tested.</PackageReleaseNotes>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <ApplicationIcon>icon.png</ApplicationIcon>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
