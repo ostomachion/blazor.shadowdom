@@ -7,7 +7,7 @@
     <PackageId>$(AssemblyName)</PackageId>
     <Title>Blazor Shadow DOM</Title>
     <Version>1.0.0-preview2</Version>
-    <Authors>ostomachion</Authors>
+    <Authors>Josh Hufford</Authors>
     <Company />
     <Copyright>Copyright © Josh Hufford 2023</Copyright>
     <Description>A modified version of Microsoft's Blazor JavaScript files to add support for shadow DOMs.</Description>
