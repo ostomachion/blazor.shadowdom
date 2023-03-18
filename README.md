@@ -26,10 +26,8 @@ In `wwwroot/index.html`, replace the Blazor script
 with the Blazor Shadow DOM script
 
 ```html
-<script src="_content/Ostomachion.Blazor.VX_X_X.ShadowDom/blazor.webassembly.js"></script>
+<script src="_content/Ostomachion.Blazor.V7_0_3.ShadowDom/blazor.webassembly.js"></script>
 ```
-
-replacing `VX_X_X` with the version Blazor you're using, e.g., `V7_0_3`.
 
 ### Server
 
@@ -42,10 +40,8 @@ In `Pages/_Host.html`, replace the Blazor script
 with the Blazor Shadow DOM script
 
 ```html
-<script src="_content/Ostomachion.Blazor.VX_X_X.ShadowDom/blazor.server.js"></script>
+<script src="_content/Ostomachion.Blazor.V7_0_3.ShadowDom/blazor.server.js"></script>
 ```
-
-replacing `VX_X_X` with the version Blazor you're using, e.g., `V7_0_3`.
 
 ### MAUI / WebView
 
@@ -58,10 +54,8 @@ In `wwwroot/index.html`, replace the Blazor script
 with the Blazor Shadow DOM script
 
 ```html
-<script src="_content/Ostomachion.Blazor.VX_X_X.ShadowDom/blazor.webview.js" autostart="false"></script>
+<script src="_content/Ostomachion.Blazor.V7_0_3.ShadowDom/blazor.webview.js" autostart="false"></script>
 ```
-
-replacing `VX_X_X` with the version Blazor you're using, e.g., `V7_0_3`.
 
 ## Usage
 
